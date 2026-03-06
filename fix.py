@@ -1,8 +1,8 @@
 import os
 
 # Set your paths
-images_dir = r"C:/Users/chari/Capstone/OIDv4_ToolKit/OID/Dataset/images"  # folder with all images
-labels_dir = r"C:/Users/chari/Capstone/OIDv4_ToolKit/OID/Dataset/labels"  # folder with all label txt files
+images_dir = r"C:/Users/.../Capstone/OIDv4_ToolKit/OID/Dataset/images"  # folder with all images
+labels_dir = r"C:/Users/.../Capstone/OIDv4_ToolKit/OID/Dataset/labels"  # folder with all label txt files
 
 def normalize_labels(images_dir, labels_dir):
     from PIL import Image
